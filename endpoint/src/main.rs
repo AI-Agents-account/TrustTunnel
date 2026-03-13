@@ -351,7 +351,7 @@ fn main() {
                 Ok(deep_link) => {
                     println!("{deep_link}");
                     println!(
-                        "To connect on mobile, you can scan QR code on the page: {TRUSTTUNNEL_QR_URL}#tt={}",
+                        "\nTo connect on mobile, you can scan QR code on the page: {TRUSTTUNNEL_QR_URL}#tt={}",
                         deep_link.strip_prefix("tt://?").unwrap()
                     );
                 }
